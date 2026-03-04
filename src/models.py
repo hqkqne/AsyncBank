@@ -59,4 +59,4 @@ class Transaction(Base):
         CheckConstraint("from_account_id != to_account_id", name = "check_no_self_transfer"),
         CheckConstraint("amount > 0", name = "check_positive_amount")
     )
-    #pisun
+    #pisuns
